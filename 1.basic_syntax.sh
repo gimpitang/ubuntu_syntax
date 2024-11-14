@@ -74,7 +74,7 @@ rm -r test
 # cp는 복사명령어
 # cp 복사대상 복사될파일명
 cp first_file.txt second_file.txt
-# mw는 이동 명령어
+# mv는 이동 명령어
 # mv 이동대상 파일 이동될파일명
-mw first_file.txt ../first_file.txt
-mw first_file.txt third_file.txt
+mv first_file.txt ../first_file.txt
+mv first_file.txt third_file.txt
