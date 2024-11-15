@@ -10,7 +10,7 @@ grep -rni "hello" .
 # find : 이름으로 파일 또는 디렉토리 찾기
 find . -name "*.txt"
 
-# find와 grep 혼용
+# find와 grep 혼용 "|" 이건 파이프라인
 find . -name "*.txt" | xargs grep -rni " hello"
 # {}에서 find에서 찾은 대상이 들어가고, \;은 구문의 끝을 의미
 find . -name "*.txt" -exec grep -rni " hello" {} \;
